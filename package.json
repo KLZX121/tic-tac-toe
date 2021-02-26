@@ -1,0 +1,16 @@
+{
+    "name": "tic-tac-toe",
+    "version": "1.0.0",
+    "author": "KLZX121",
+    "description": "A Tic Tac Toe game with a few customisable features",
+    "main": "main.js",
+    "scripts": {
+        "test": "electron .",
+        "pack": "electron-builder --dir",
+        "dist": "electron-builder"
+    },
+    "devDependencies": {
+        "electron": "^11.3.0",
+        "electron-builder": "^22.9.1"
+    }
+}
