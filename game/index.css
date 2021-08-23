@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'Moon';
+    src: url('./fonts/Moon.otf');
+}
+
+html {
+    box-sizing: border-box;
+    height: 100%;
+    font-family: 'Moon', sans-serif;
+}
+body {
+    box-sizing: border-box;
+    height: calc(100% - 16px);
+    display: grid;
+    grid-template-rows: 15% 70% 15%;
+    align-items: center;
+    justify-items: center;
+}
+
+#title {
+    grid-row: 1;
+    font-size: 5em;
+}
