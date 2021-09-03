@@ -3,10 +3,12 @@
     src: url('./fonts/Moon.otf');
 }
 
+* {
+    font-family: 'Moon', sans-serif;
+}
 html {
     box-sizing: border-box;
     height: 100%;
-    font-family: 'Moon', sans-serif;
 }
 body {
     box-sizing: border-box;
@@ -18,6 +20,19 @@ body {
 }
 
 #title {
-    grid-row: 1;
     font-size: 5em;
+}
+#menu {
+    display: flex;
+    flex-direction: column;
+}
+#menu button {
+    padding: 0.3em;
+    font-size: 1.5em;
+    width: 9em;
+    height: 2.5em;
+    margin-bottom: 0.5em;
+}
+#menu button:last-child {
+    margin-bottom: 0;
 }
