@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Moon';
-    src: url('./fonts/Moon.otf');
+    src: url('../fonts/Moon.otf');
 }
 
 * {
@@ -19,20 +19,28 @@ body {
     justify-items: center;
 }
 
-#title {
+.title {
     font-size: 5em;
 }
-#menu {
+.menu {
     display: flex;
     flex-direction: column;
 }
-#menu button {
+.menu button {
+    margin-bottom: 0.5em;
+}
+.menu button:last-child {
+    margin-bottom: 0;
+}
+
+.options {
+    align-self: start;
+    padding: 5em;
+}
+
+.button {
     padding: 0.3em;
     font-size: 1.5em;
     width: 9em;
     height: 2.5em;
-    margin-bottom: 0.5em;
-}
-#menu button:last-child {
-    margin-bottom: 0;
 }

@@ -8,7 +8,8 @@ app.on('ready', bootWindow);
 //create new browser window to load the game files
 function bootWindow(){
     const win = new BrowserWindow({
-        show: false
+        show: false,
+        title: 'Tic Tac Toe'
     });
     win.loadFile('game/index.html');
     win.on('ready-to-show', () => win.maximize());
