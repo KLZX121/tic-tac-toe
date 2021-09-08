@@ -11,7 +11,7 @@ function bootWindow(){
         show: false,
         title: 'Tic Tac Toe'
     });
-    win.loadFile('game/index.html');
+    win.loadFile('game/html/index.html');
     win.on('ready-to-show', () => win.maximize());
 
     win.webContents.on('new-window', (event, url) => {
